@@ -2,6 +2,7 @@
   "name": "advent-of-code-24",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node day1_part2.js"
   },
