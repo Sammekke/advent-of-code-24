@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const data = fs.readFileSync('./input.txt').toString().split('\n').map(row => row.match(/\w+/g));
+const data = fs.readFileSync('./input_day1.txt').toString().split('\n').map(row => row.match(/\w+/g));
 
 const list1 = [];
 const list2 = [];
